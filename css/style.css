@@ -210,7 +210,8 @@ html, body {
 .project {
     margin-top: 10px;
     display: grid;
-    
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    gap: 30px 20px;
 }
 
 .card {
